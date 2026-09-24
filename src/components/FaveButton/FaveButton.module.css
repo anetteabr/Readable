@@ -1,0 +1,34 @@
+.faveButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.faveButton:hover {
+  transform: scale(1.1);
+}
+
+.faveButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.heartIcon {
+  width: 25px;
+  height: 25px;
+}
+.heartIcon:hover {
+  color: var(--color-red-dark);
+}
+
+.favorited {
+  color: var(--color-red-dark);
+}
+
+.notFavorited {
+  color: rgb(186, 170, 159);
+}
