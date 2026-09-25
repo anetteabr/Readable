@@ -5,7 +5,6 @@
 - [Project 2: Readable](#project-2-readable)
   - [Readable project overview](#readable-project-overview)
   - [Run the project](#run-the-project)
-    - [Run the project locally](#run-the-project-locally)
   - [Features](#features)
   - [Technologies](#technologies)
     - [Backend](#backend)
@@ -31,11 +30,19 @@ Readable is a webpage where you can view and search for your favorite books by t
 
 ## Run the project
 
-Click the link below to get to our project on the VM, make sure to be on NTNU network (eduroam), or connect via VPN:
+In folder T34-Project-2 write
 
-http://it2810-34.idi.ntnu.no/project2
+```sh
+npm install
+```
 
-### Run the project locally
+```sh
+npm run dev
+```
+
+*As we used Neo4j connected to NTNU while developing Readable, I created a mock database file since I do not currently have access to the real database.*
+
+*The following commands are not required when using the mock database file.*
 
 First, clone the repo in your preferred way.
 
